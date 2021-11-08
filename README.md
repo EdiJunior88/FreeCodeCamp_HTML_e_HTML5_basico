@@ -12,35 +12,36 @@ Neste curso, você vai construir um aplicativo de fotografia de gatos para apren
 
 <hr>
 
-<h3>Seção 2: Introdução ao HTML e CSS</h3>
-
 <ul>
-  <li>Estágios de um projeto</li>
-  <li>O que é HTML</li>
-  <li>Como fazer HTML</li>
-  <li>Instalando e Configurando o Editor de Código</li>
-  <li>Tags e Semântica HTML</li>
-  <li>O que é CSS</li>
-  <li>Começando no CSS</li>
-  <li>Folha de estilos externa e cascata</li>
-  <li>Tipografia na web</li>
-  <li>Cores na Web</li>
-  <li>Exercício CSS 01 - Parte 1</li>
-  <li>Exercício CSS 01 - Parte 2</li>
-  <li>Exercício CSS 01 - Parte 3</li>
-  <li>Exercício CSS 01 - Parte 4</li>
-  <li>Exercício CSS 01 - Parte 5</li>
-  <li>Design patterns e o Atomic Design</li>
-  <li>Exercício CSS 02 - Parte 1</li>
-  <li>Exercício CSS 02 - Parte 2</li>
-  <li>Exercício CSS 02 - Parte 3</li>
-  <li>Exercício CSS 02 - Parte 4</li>
-  <li>Exercício CSS 02 - Parte 5</li>
-  <li>Exercício CSS 02 - Parte 6</li>
-  <li>Exercício CSS 02 - Parte 7</li>
-  <li>Exercício CSS 02 - Parte 8</li>
+  <li>Conhecer os elementos HTML</li>
+  <li>Criar títulos com o elemento h2</li>
+  <li>Informar com o elemento de parágrafo</li>
+  <li>Preencher um espaço vazio com um texto placeholder</li>
+  <li>Remover comentário no HTML</li>
+  <li>Comentar em HTML</li>
+  <li>Excluir elementos HTML</li>
+  <li>Conhecer os primeiros elementos do HTML5</li>
+  <li>Adicionar imagens ao seu site</li>
+  <li>Criar links para páginas externas com elementos de âncora</li>
+  <li>Criar links para seções internas de uma página com elementos de âncora</li>
+  <li>Inserir um elemento de âncora em um parágrafo</li>
+  <li>Tornar links inativos usando o símbolo de hash</li>
+  <li>Transformar uma imagem em um link</li>
+  <li>Criar uma lista não ordenada de itens</li>
+  <li>Criar uma lista ordenada</li>
+  <li>Criar um campo de texto</li>
+  <li>Adicionar texto placeholder a um campo de texto</li>
+  <li>Criar um elemento de formulário</li>
+  <li>Adicionar um botão de envio a um formulário</li>
+  <li>Tornar um campo de entrada obrigatório usando HTML5</li>
+  <li>Criar um grupo de botões de seleção</li>
+  <li>Criar um grupo de caixas de seleção</li>
+  <li>Usar o atributo value nos inputs do tipo radio e checkbox</li>
+  <li>Marcar botões e caixas de seleção por padrão</li>
+  <li>Inserir diversos elementos em um único elemento div</li>
+  <li>Declarar o doctype de um documento HTML</li>
+  <li>Definir head e body de um documento HTML</li>
  </ul>
-
 
 <hr>
 

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>CCriar links para seções internas de uma página com elementos de âncora</title>
+</head>
+<body>
+  <h1>Criar links para seções internas de uma página com elementos de âncora</h1>
+  <p>
+    Os elementos <code><mark>a</mark></code> (âncora) também podem ser usados para criar vínculos internos, para saltar para seções diferentes de sua pagina da web.
+
+    <br><br>
+
+    Para criar um link interno, você associa o atributo <code><mark>href</mark></code> do link para um símbolo de hash <code><mark>#</mark></code>, em combinação com o valor do atributo <code><mark>id</mark></code> do elemento ao qual você deseja vincular internamente, que geralmente fica mais abaixo na página. Você, então, precisará adicionar o mesmo atributo <code><mark>id</mark></code> ao elemento que está sendo vinculado ao link. <code><mark>id</mark></code> é um atributo que descreve um único elemento.
+
+    <br><br>
+
+    Abaixo, vemos um exemplo de um link vinculado a um elemento interno da página:
+
+    <div>
+      <code>
+        &lta href="#contacts-header">Contacts&lt/a&gt
+        <br>
+        ...
+        <br>
+        &lth2 id="contacts-header">Contacts&lt/a&gt
+      </code>
+    </div>
+
+    <br>
+
+    Quando os usuários clicam no link <code><mark>Contacts</mark></code>, eles são levados à seção da página que contem o elemento de título <strong>Contacts</strong>.
+
+    <br><br>
+
+    Troque o link externo por um link interno mudando o atributo <code><mark>href</mark></code> para o valor <code><mark>"#footer"</mark></code> e o texto de <code><mark>cat photos</mark></code> para <code><mark>Jump to Bottom</mark></code>.
+
+    <br><br>
+
+    Remova o atributo <code><mark>target="_blank"</mark></code> da tag de âncora, pois ele faz com que o documento vinculado abra em uma nova aba do navegador.
+
+    <br><br>
+
+    Em seguida, adicione o atributo <code><mark>id</mark></code> com o valor de <code><mark>footer</mark></code> ao elemento <code><mark>&ltfooter&gt</mark></code> na parte inferior da página.
+  </p>
+ 
+</body>
+</html>

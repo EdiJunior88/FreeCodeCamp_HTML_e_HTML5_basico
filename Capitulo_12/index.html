@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Inserir um elemento de âncora em um parágrafo</title>
+</head>
+<body>
+  <h1>Inserir um elemento de âncora em um parágrafo</h1>
+  <p>
+    Você pode incluir links dentro de outros elementos de texto.
+
+    <br>
+
+    <div>
+      <code>
+        &ltp&gt
+        <br>
+        &nbsp;&nbsp; Here's a &lta target="_blank" href="https://www.freecodecamp.org"&gtlink to www.freecodecamp.org&lt/a&gt for you to follow.
+        <br>
+        &lt/p&gt
+      </code>
+    </div>
+
+    <br>
+
+    Vamos dividir o exemplo em partes. O texto normal está dentro do elemento <code><mark>p</mark></code>:
+
+    <br><br>
+
+    <div>
+      <code>
+        &ltp&gtHere's a ... for you to follow.&lt/p&gt
+      </code>
+    </div>
+
+    <br>
+
+    Em seguida, temos o elemento de âncora <code><mark>&lta&gt</mark></code> (que exige uma tag de fechamento <code><mark>&lt/a&gt</mark></code>):
+
+    <br><br>
+
+    <div>
+      <code>
+        &lta&gt ... &lt/a&gt
+      </code>
+    </div>
+
+    <br>
+
+    <code><mark>target</mark></code> é um atributo da tag de âncora que especifica onde abrir o link. O valor <code><mark>_blank</mark></code> especifica que o link deve ser aberto em uma nova aba. O atributo <code><mark>href</mark></code> da tag de âncora contém o endereço URL do link:
+
+    <br><br>
+
+    <div>
+      <code>
+        &lta href="https://www.freecodecamp.org" target="_blank"&gt...&lt/a&gt
+      </code>
+    </div>
+
+    <br>
+    
+    O texto, <code><mark>link to www.freecodecamp.org</mark></code>, dentro do elemento <code>a</code>, é chamado de texto âncora e exibirá o link que pode ser clicado:
+
+    <br><br>
+
+    <div>
+      <code>
+        &lta&gt href=" ... " target="..."&gtlink to freecodecamp.org&lt/a&gt
+      </code>
+    </div>
+
+    <br>
+
+    O resultado final do exemplo ficará assim:
+
+    <br><br>
+
+    Here's a link to <a href="">www.freecodecamp.org</a> for you to follow.
+
+    <br><br>
+
+    Insira o elemento <code><mark>a</mark></code> dentro de um novo elemento <code><mark>p</mark></code>. Não crie uma nova tag de âncora. O novo parágrafo deve ter um texto que diz <code><mark>View more cat photos</mark></code>, onde <code><mark>cat photos</mark></code> é um link, enquanto o restante é texto sem formatação.
+  </p>
+ 
+</body>
+</html>

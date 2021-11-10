@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Criar um grupo de botões de seleção</title>
+</head>
+<body>
+  <h1>Criar um grupo de botões de seleção</h1>
+  <p>
+    Você pode usar botões de seleção para perguntas onde você queira que o usuário dê apenas uma resposta dentre várias opções.
+
+    <br><br>
+
+    Os botões de seleção são um tipo de <code><mark>input</mark></code>.
+
+    <br><br>
+
+    Cada um dos botões de seleção deve estar dentro de seu próprio elemento <code><mark>label</mark></code>. Ao envolver um elemento <code><mark>input</mark></code> em um elemento <code><mark>label</mark></code>, este último vai estar automaticamente associado ao input do botão de seleção em questão.
+
+    <br><br>
+
+    Todos os botões de seleção correspondentes a uma mesma pergunta devem ter o atributo <code><mark>name</mark></code> de mesmo valor para criar um grupo de botões de seleção. Ao criar um grupo de botões de seleção, ao selecionar qualquer um dos botões, os outros serão desmarcados automaticamente, garantindo que apenas uma resposta seja fornecida pelo usuário.
+
+    <br><br>
+
+    Aqui vemos um exemplo de botão de seleção:
+
+    <br>
+
+    <div>
+      <code>
+        &ltlabel&gt
+        <br>
+        &nbsp; &ltinput type="radio" name="indoor-outdoor"&gtIndoor
+        <br>
+        &lt/label&gt
+      </code>
+    </div>
+    
+    <br>
+
+    É uma prática recomendada definir o atributo <code><mark>for</mark></code> no elemento <code><mark>label</mark></code> contendo um valor equivalente ao do atributo <code><mark>id</mark></code> do elemento <code><mark>input</mark></code>. Isso permite que tecnologias assistivas criem uma relação entre o label e o elemento <code><mark>input</mark></code>. Por exemplo:
+
+    <br><br>
+
+    <div>
+      <code>
+        &ltinput id="indoor" type="radio" name="indoor-outdoor"&gt
+        <br>
+        &ltlabel for="indoor"&gtIndoor&lt/label&gt
+      </code>
+    </div>
+    
+    <br>
+
+    Também podemos alocar o elemento <code><mark>input</mark></code> dentro das tags <code><mark>label</mark></code>:
+
+    <br><br>
+
+    <div>
+      <code>
+        &ltlabel for="indoor"&gt
+        <br>
+        &nbsp; &ltinput id="indoor" type="radio" name="indoor-outdoor"&gtIndoor
+        <br>
+        &lt/label&gt
+      </code>
+    </div>
+    
+    <br>
+
+    Adicione dois botões de seleção ao formulário, cada um associado ao seu próprio elemento <code><mark>label</mark></code>. Em um, coloque o texto <code><mark>indoor</mark></code>. No outro, coloque o texto <code><mark>outdoor</mark></code>. Ambos devem ter o atributo <code><mark>name</mark></code> definido como <code><mark>indoor-outdoor</mark></code> para que seja criado um grupo de botões de seleção.
+  </p>
+</body>
+</html>

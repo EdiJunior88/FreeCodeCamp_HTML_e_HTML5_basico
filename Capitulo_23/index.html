@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Criar um grupo de caixas de seleção</title>
+</head>
+<body>
+  <h1>Criar um grupo de caixas de seleção</h1>
+  <p>
+    Os formulários normalmente usam caixas de seleção para perguntas que tenham mais de uma resposta.
+
+    <br><br>
+
+    As caixas de seleção são um tipo de <code><mark>input</mark></code>.
+
+    <br><br>
+
+    Cada uma das caixas de seleção deve estar dentro de seu próprio elemento <code><mark>label</mark></code>. Ao envolver um elemento <code><mark>input</mark></code> em um elemento <code><mark>label</mark></code>, este último vai estar automaticamente associado ao input da caixa de seleção em questão.
+
+    <br><br>
+
+    Todos os inputs de caixa de seleção correspondentes a uma mesma pergunta devem ter o atributo <code><mark>name</mark></code> de mesmo valor.
+
+    <br><br>
+
+    É uma prática recomendada definir claramente a relação entre o <code><mark>input</mark></code> de uma caixa de seleção e seu elemento <code><mark>label</mark></code> correspondente por meio da definição do atributo <code><mark>for</mark></code> no elemento <code><mark>label</mark></code>, de modo que este atributo corresponda ao atributo <code><mark>id</mark></code> associado ao elemento <code><mark>input</mark></code>.
+
+    <br><br>
+
+    Aqui vemos um exemplo de caixa de seleção:
+
+    <br>
+
+    <div>
+      <code>
+        &ltlabel for="loving"&gt&ltinput id="loving" type="checkbox" name="personality"&gtLoving&lt/label&gt
+      </code>
+    </div>
+    
+    <br>
+
+    Adicione ao formulário um grupo de três caixas de seleção. Cada caixa de seleção deve estar dentro de seu próprio elemento <code><mark>label</mark></code>. As três devem compartilhar o atributo <code><mark>name</mark></code> de valor <code><mark>personality</mark></code>.
+  </p>
+</body>
+</html>

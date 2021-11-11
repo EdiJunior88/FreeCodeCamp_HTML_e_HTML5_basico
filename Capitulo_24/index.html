@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Usar o atributo value nos inputs do tipo radio e checkbox</title>
+</head>
+<body>
+  <h1>Usar o atributo value nos inputs do tipo radio e checkbox</h1>
+  <p>
+    Quando um formulário é enviado, os dados vão para um servidor, e este, por sua vez, vai identificar os valores de cada input. Os inputs do tipo <code><mark>radio</mark></code> e <code><mark>checkbox</mark></code> têm seus valores identificados a partir do atributo <code><mark>value</mark></code>.
+
+    <br><br>
+
+    Por exemplo:
+
+    <br>
+
+    <div>
+      <code>
+        &ltlabel for="indoor"&gt
+        <br>
+        &nbsp;  &ltinput id="indoor" value="indoor" type="radio" name="indoor-outdoor">Indoor
+        <br>
+        &lt/label&gt
+        
+        <br><br>
+        
+        &ltlabel for="outdoor"&gt
+        <br>  
+        &nbsp;  &ltinput id="outdoor" value="outdoor" type="radio" name="indoor-outdoor"&gtOutdoor
+        <br>
+        &lt/label&gt
+      </code>
+    </div>
+    
+    <br>
+
+    Aqui, temos dois inputs do tipo <code><mark>radio</mark></code>. Quando o usuário envia o formulário com a opção <code><mark>indoor</mark></code> selecionada, os dados do formulário incluirão a linha: <code><mark>indoor-outdoor=indoor</mark></code>. Essas informações vêm dos atributos <code><mark>name</mark></code> e <code><mark>value</mark></code> do input "indoor".
+
+    <br><br>
+
+    Se você omitir o atributo <code><mark>value</mark></code>, o formulário enviado usa o valor padrão, que é <code><mark>on</mark></code>. Neste cenário, mesmo que o usuário clicasse na opção "indoor" e enviasse o formulário, os dados resultantes do formulário seriam <code><mark>indoor-outdoor=on</mark></code>, o que não é útil. Por isso, o atributo <code><mark>value</mark></code> precisa ser definido com algo que identifique a opção.
+
+    <br><br>
+
+    Dê a cada um dos inputs do tipo <code><mark>radio</mark></code> e do tipo <code><mark>checkbox</mark></code> existentes o atributo <code><mark>value</mark></code>. Não crie elementos novos do tipo botão de opção ou do tipo caixa de seleção. Use o texto do label do input, em letras minúsculas, como o valor do atributo.
+  </p>
+</body>
+</html>

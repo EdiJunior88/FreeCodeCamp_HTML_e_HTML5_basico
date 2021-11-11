@@ -14,6 +14,8 @@ Neste curso, você vai construir um aplicativo de fotografia de gatos para apren
 
 <strong>Página Web final do módulo:</strong> <a href="https://edijunior88.github.io/FreeCodeCamp_HTML_e_HTML5_basico/">https://edijunior88.github.io/FreeCodeCamp_HTML_e_HTML5_basico/</a>
 
+![index-image](index-image.png)
+
 <hr>
 
 <ul>

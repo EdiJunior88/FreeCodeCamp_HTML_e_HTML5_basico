@@ -1,51 +1,58 @@
-<h2>CatPhotoApp</h2>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h2>CatPhotoApp</h2>
+  <main>
+    <p>
+      Click here to view more <a href="#" target="_blank"> <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back."></a>.
+    </p>
 
-<main>
+    <div>
+      <p>Coisas que os gatos amam:</p>
+      <ul>
+        <li>Domir</li>
+        <li>Comer</li>
+        <li>Miar</li>
+      </ul>
+      <p>Top 3 Coisas que os Gatos Odeiam:</p>
+      <ol>
+        <li>Cócegas</li>
+        <li>Sustos</li>
+        <li>Pegar na Pata</li>
+      </ol>
+    </div>
 
-  <p>
-    Click here to view more <a href="#" target="_blank"> <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back."></a>.
-  </p>
+    <form action="https://www.freecatphotoapp.com/submit-cat-photo">
+      <input type="text" placeholder="cat photo URL" required>
+      
+      <button type="submit">Submit</button>
 
-  <div>
-    <p>Coisas que os gatos amam:</p>
-    <ul>
-      <li>Domir</li>
-      <li>Comer</li>
-      <li>Miar</li>
-    </ul>
-    <p>Top 3 Coisas que os Gatos Odeiam:</p>
-    <ol>
-      <li>Cócegas</li>
-      <li>Sustos</li>
-      <li>Pegar na Pata</li>
-    </ol>
-  </div>
+      <label>
+        <input type="radio" name="indoor-outdoor" value="indoor" checked>Indoor
+      </label>
 
-  <form action="https://www.freecatphotoapp.com/submit-cat-photo">
-    <input type="text" placeholder="cat photo URL" required>
-    
-    <button type="submit">Submit</button>
+      <label>
+        <input type="radio" name="indoor-outdoor" value="outdoor">Outdoor
+      </label>
 
-    <label>
-      <input type="radio" name="indoor-outdoor" value="indoor" checked>Indoor
-    </label>
+      <label for="personality">
+        <input type="checkbox" name="personality" value="loving" checked>Loving
+      </label>
 
-    <label>
-      <input type="radio" name="indoor-outdoor" value="outdoor">Outdoor
-    </label>
+      <label for="personality">
+        <input type="checkbox" name="personality" value="lazy">Lazy
+      </label>
 
-    <label for="personality">
-      <input type="checkbox" name="personality" value="loving" checked>Loving
-    </label>
-
-    <label for="personality">
-      <input type="checkbox" name="personality" value="lazy">Lazy
-    </label>
-
-    <label for="personality">
-      <input type="checkbox" name="personality" value="energetic">Energetic
-    </label>
-    
-  </form>
-
-</main>
+      <label for="personality">
+        <input type="checkbox" name="personality" value="energetic">Energetic
+      </label>
+    </form>
+  </main>
+</body>
+</html>
